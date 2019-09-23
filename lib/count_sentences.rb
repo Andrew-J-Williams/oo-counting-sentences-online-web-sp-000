@@ -33,12 +33,14 @@ class String
   end
 
   def count_sentences
+    count = 0
 
     our_split = self.split
     our_split.each do |x|
-
-
+      if 
+      
     end
+    
   end
 
 end
