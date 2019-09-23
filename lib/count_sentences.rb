@@ -33,17 +33,9 @@ class String
   end
 
   def count_sentences
-    count = 0
-
+    
     our_split = self.split
-    our_split.each do |x|
-      if x.end_with?(".") || x.end_with?("!") || x.end_with("?")
-        count += 1
-      end
-
-      count
-
-    end
+    
 
   end
 
