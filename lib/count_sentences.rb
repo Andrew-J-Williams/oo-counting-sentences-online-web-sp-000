@@ -35,7 +35,7 @@ class String
   def count_sentences
 
     our_split = self.split
-    our_split.count {|x| x == "."}
+    our_split.count {|x| x[-1] == "."}
 
 
   end
