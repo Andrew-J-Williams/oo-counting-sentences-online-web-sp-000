@@ -9,7 +9,7 @@ class String
     else
       return false # Otherwise, return false value
     end
-    
+
   end
 
   def question?
