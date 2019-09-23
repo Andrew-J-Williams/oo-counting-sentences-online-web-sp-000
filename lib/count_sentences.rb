@@ -39,6 +39,7 @@ class String
     our_split.each do |x|
       if x.end_with?(".") || x.end_with?("!") || x.end_with("?")
         count += 1
+      end
 
     end
 
