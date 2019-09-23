@@ -37,10 +37,10 @@ class String
 
     our_split = self.split
     our_split.each do |x|
-      if 
-      
+      if
+
     end
-    
+
   end
 
 end
