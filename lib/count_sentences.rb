@@ -41,7 +41,7 @@ class String
         symbols << x
       end
 
-      count
+      symbols.count
 
     end
 
