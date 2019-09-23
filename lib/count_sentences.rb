@@ -37,7 +37,7 @@ class String
 
     our_split = self.split
     our_split.each do |x|
-      if x.end_with?(".") || x.end_with?("!") || x.end_with("?")
+      if x[-1]
         symbols << x
       end
 
