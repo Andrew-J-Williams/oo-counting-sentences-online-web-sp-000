@@ -38,7 +38,7 @@ class String
     our_split = self.split
     our_split.each do |x|
       if x[-1] == "." || x[-1] == "!" || x[-1] == "?"
-        symbols << x
+        symbols << x[-1]
       end
 
       symbols.count
