@@ -32,7 +32,7 @@ class String
 
   end
 
-  def count_sentences(x,y,z)
+  def count_sentences
 
 
 
