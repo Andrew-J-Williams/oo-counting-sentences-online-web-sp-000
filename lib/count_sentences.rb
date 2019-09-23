@@ -34,7 +34,7 @@ class String
 
   def count_sentences
 
-    our_split = self.split()
+    our_split = self.split(' . ', ' ! ', ' ? ' )
     our_split.count
 
 
